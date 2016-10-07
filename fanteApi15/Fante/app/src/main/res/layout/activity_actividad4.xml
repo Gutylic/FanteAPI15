@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2"
+    >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context="com.unprofesorya.fante.Actividad4"
+        android:background="@drawable/fondo">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Celular"
+                android:id="@+id/celular"
+                android:layout_weight="1"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Credito"
+                android:id="@+id/credito"
+                android:layout_weight="0.43"
+                android:textSize="12dp"
+                android:gravity="end" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView7"
+                android:text="Resolución en &quot;2 pasos&quot;"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1) Saca una foto de tus ejercicios y envialo por WhatsApp al"
+                android:id="@+id/textView8"
+                android:layout_marginTop="25dp"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="+54 911 3845 - 2234"
+                android:id="@+id/textView12"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/accent_material_light"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2) Espera un instante y recibiras la respuesta "
+                android:id="@+id/textView11"
+                android:layout_marginTop="25dp"
+                android:textSize="25dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="65dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Crédito Gratis "
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Carga Crédito"
+                    android:id="@+id/button4"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>
+

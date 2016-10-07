@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('ksoap2-android-assembly-3.1.1-jar-with-dependencies.jar'))

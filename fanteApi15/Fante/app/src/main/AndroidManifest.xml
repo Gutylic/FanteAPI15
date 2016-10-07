@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unprofesorya.fante">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fante ¡es aprobar!"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actividad0"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Actividad1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Actividad2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spinner_item"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Actividad3"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Actividad4" android:screenOrientation="portrait" />
+        <activity android:name=".Actividad5" android:screenOrientation="portrait" />
+        <activity android:name=".Actividad6" android:screenOrientation="portrait" />
+        <activity android:name=".Actividad7" android:screenOrientation="portrait" />
+        <activity android:name=".Actividad8" android:screenOrientation="portrait"  />
+        <activity android:name=".Actividad9" android:screenOrientation="portrait" />
+        <activity android:name=".Actividad10" android:screenOrientation="portrait" />
+        <activity android:name=".Actividad11" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
